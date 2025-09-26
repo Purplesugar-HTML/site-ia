@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Roxo Fofo</title>
+    <style>
+        /* Paleta de Cores Sugerida: */
+        /* --roxo-escuro: #3C096C; (Fundo principal, bem escuro) */
+        /* --roxo-medio: #5A189A; (Elementos de destaque, botões) */
+        /* --lilas-fofo: #E0AAFF; (Cor de texto principal, detalhes fofos) */
+        /* --branco-suave: #F3F3F3; (Texto secundário, talvez) */
+
+        body {
+            font-family: 'Arial', sans-serif;
+            /* Cor de fundo principal: Roxo Escuro */
+            background-color: #3C096C; 
+            margin: 0;
+            padding: 0;
+            color: #E0AAFF; /* Cor do texto principal: Lilás Fofo */
+            text-align: center;
+        }
+
+        header {
+            /* Roxo mais claro para o topo */
+            background-color: #5A189A;
+            padding: 20px;
+            color: #E0AAFF;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav a {
+            color: #E0AAFF; /* Lilás fofo */
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #F3F3F3; /* Muda para branco suave ao passar o mouse */
+        }
+
+        .container {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            /* Fundo levemente diferente ou borda para o conteúdo */
+            background-color: rgba(90, 24, 154, 0.5); /* Roxo com transparência */
+            border-radius: 15px;
+            border: 2px solid #E0AAFF; /* Borda lilás fofa */
+        }
+
+        h2 {
+            color: #E0AAFF; /* Lilás Fofo */
+            border-bottom: 2px solid #E0AAFF;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .botao {
+            /* Estilo do botão: Roxo Médio com texto Lilás Fofo */
+            background-color: #5A189A;
+            color: #E0AAFF;
+            padding: 10px 20px;
+            margin-top: 15px;
+            border: 2px solid #E0AAFF;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .botao:hover {
+            /* Efeito Fofo ao passar o mouse */
+            background-color: #E0AAFF; /* Inverte o fundo */
+            color: #3C096C; /* Inverte a cor do texto */
+            transform: scale(1.05); /* Pequeno aumento de tamanho */
+        }
+
+        footer {
+            /* Roxo Escuro para o rodapé */
+            background-color: #3C096C;
+            color: #E0AAFF;
+            padding: 10px;
+            margin-top: 30px;
+            border-top: 1px solid #5A189A;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Galeria</a>
+            <a href="#">Contato</a>
+        </nav>
+        <h1>Bem-vindo ao Meu Universo Roxo!</h1>
+    </header>
+
+    <div class="container">
+        <h2>Seção Principal</h2>
+        <p>
+            Este é um exemplo de texto para o seu site. A combinação de **roxo escuro** no fundo e o **lilás fofo** (cor do texto) cria um contraste elegante e moderno, com um toque super aconchegante, como você pediu!
+            Sinta-se à vontade para trocar as cores por tons ligeiramente diferentes que você gostar mais, mas a base está aqui.
+        </p>
+        <p>
+            O botão abaixo usa o **roxo médio** como cor principal e se destaca bem no fundo escuro.
+        </p>
+        <a href="#" class="botao">Clique Aqui com Fofura</a>
+    </div>
+
+    <div class="container">
+        <h2>Mais Conteúdo</h2>
+        <p>
+            Você pode criar várias seções como esta, mantendo o visual limpo e usando o lilás como detalhe principal. Pense em usar fontes com um toque mais "fofo" ou arredondado se quiser reforçar ainda mais o tema!
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Site Roxo Fofo | Feito com carinho e cores!</p>
+    </footer>
+
+</body>
+</html>
