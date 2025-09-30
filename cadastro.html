@@ -2,65 +2,74 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 </head>
 <body>
-    <table width="80%" align="center" border="0" cellpadding="10" cellspacing="0">
-        <tr>
-            <td colspan="2" align="center">
-                <img src="https://via.placeholder.com/120x120/800080/ffffff?text=Logo" alt="Logo Roxo" width="120" height="120"><br>
-                <h1 style="margin-bottom: 0;">Cadastro</h1>
-                <p style="font-size: 1.2em; margin-top: 0;">Preencha seus dados para se cadastrar</p>
-                <p>
-                    <a href="inicio.html">← Voltar para a Capa</a>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="25%" valign="top" align="center" bgcolor="#f0f0f0">
-                <h2>Menu</h2>
-                <table border="0" width="100%">
-                    <tr><td align="center"><a href="inicio.html">Início</a></td></tr>
-                    <tr><td align="center"><a href="sobres.html">Valores e Missão</a></td></tr>
-                    <tr><td align="center"><a href="produtos.html">Produtos</a></td></tr>
-                    <tr><td align="center"><a href="contato.html">Contato</a></td></tr>
-                    <tr><td align="center"><a href="cadastro.html">Cadastro</a></td></tr>
-                </table>
-            </td>
-            <td width="75%" valign="top">
-                <form action="#" method="post">
-                    <table border="0" cellpadding="8">
-                        <tr>
-                            <td>Nome:</td>
-                            <td><input type="text" name="nome" required></td>
-                        </tr>
-                        <tr>
-                            <td>E-mail:</td>
-                            <td><input type="email" name="email" required></td>
-                        </tr>
-                        <tr>
-                            <td>Senha:</td>
-                            <td><input type="password" name="senha" required></td>
-                        </tr>
-                        <tr>
-                            <td>Confirme a Senha:</td>
-                            <td><input type="password" name="confirmar_senha" required></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" align="center">
-                                <input type="submit" value="Cadastrar">
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" align="center">
-                <hr>
-                <small>&copy; 2025 Meu Site. Todos os direitos reservados.</small>
-            </td>
-        </tr>
-    </table>
+
+    <header>
+        <img src="https://via.placeholder.com/120x120/800080/ffffff?text=Logo" alt="Logo Roxo" width="120" height="120">
+        <h1>Cadastro</h1>
+        <p>Preencha seus dados para se cadastrar</p>
+        <p>
+            <a href="inicio.html">← Voltar para a Capa</a>
+        </p>
+        <hr>
+    </header>
+
+    <div>
+        
+        <aside>
+            <h2>Menu</h2>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Início</a></li>
+                    <li><a href="sobres.html">Valores e Missão</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <hr>
+
+        <main>
+            <form action="#" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+                <br>
+                <div>
+                    <label for="confirmar_senha">Confirme a Senha:</label>
+                    <input type="password" id="confirmar_senha" name="confirmar_senha" required>
+                </div>
+                <br>
+                
+                <div>
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </form>
+        </main>
+
+    </div>
+
+    <hr> 
+    
+    <footer>
+        <small>&copy; 2025 Meu Site. Todos os direitos reservados.</small>
+    </footer>
+
 </body>
 </html>
