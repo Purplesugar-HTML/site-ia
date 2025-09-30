@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Pedido Personalizado</title>
+</head>
+<body>
+
+    <header align="center">
+        <img src="https://via.placeholder.com/120x120/800080/ffffff?text=Logo" alt="Logo Roxo" width="120" height="120">
+        <h1>Pedido Personalizado</h1>
+        <p>Preencha os detalhes para solicitar seu item de crochê único.</p>
+        <p>
+            <a href="inicio.html">← Voltar para o Início</a>
+        </p>
+        <hr>
+    </header>
+
+    <main>
+        <form action="#" method="post" enctype="multipart/form-data">
+            
+            <h2>Informações de Contato</h2>
+
+            <div>
+                <label for="email_contato">E-mail para Contato:</label>
+                <input type="email" id="email_contato" name="email_contato" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="telefone">Telefone (Whatsapp):</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+            </div>
+            <br>
+            
+            <hr>
+
+            <h2>Detalhes do Produto</h2>
+
+            <div>
+                <label for="quantidade">Quantidade de Itens:</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" max="10" value="1" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="url_referencia">Link de Referência (Opcional):</label>
+                <input type="url" id="url_referencia" name="url_referencia" placeholder="https://exemplo.com/inspiracao">
+            </div>
+            <br>
+
+            <div>
+                <label for="arquivo_referencia">Anexar Imagem de Inspiração:</label>
+                <input type="file" id="arquivo_referencia" name="arquivo_referencia" accept="image/*">
+            </div>
+            <br>
+            
+            <hr>
+
+            <h2>Pesquisa Rápida</h2>
+
+            <div>
+                <label for="termo_pesquisa">Qual palavra-chave você usaria para buscar este item?</label>
+                <input type="search" id="termo_pesquisa" name="termo_pesquisa">
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Enviar Solicitação">
+            </div>
+        </form>
+    </main>
+
+    <hr> 
+    
+    <footer align="center">
+        <small>&copy; 2025 Meu Site. Todos os direitos reservados.</small>
+    </footer>
+
+</body>
+</html>
