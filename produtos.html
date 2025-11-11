@@ -3,65 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos de Crochê</title>
+    <title>Produtos - Galaxy Crochê</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-    <header align="center">
-        <img src="https://via.placeholder.com/120x120/800080/ffffff?text=Logo" alt="Logo Roxo" width="120" height="120">
-        <h1>Produtos de Crochê</h1>
-        <p>Feitos à mão com carinho e qualidade</p>
-        <hr>
-        <ul><li><a href="inicio.html">Início</a></li></ul>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Início</a></li>
+                    <li><a href="produtos.html" class="active">Produtos</a></li>
+                    <li><a href="sobres.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <table width="100%" border="1" cellpadding="10" cellspacing="0" align="center">
+    <div class="container">
+        <aside>
+            <h2>Menu</h2>
+            <nav class="side-nav">
+                <ul>
+                    <li><a href="inicio.html">Início</a></li>
+                    <li><a href="sobres.html">Valores e Missão</a></li>
+                    <li><a href="produtos.html" class="active">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="tabela.html">Tabela Comparativa</a></li>
+                    <li><a href="formulario.html">Pedido Personalizado</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <h1>Nossos Produtos</h1>
+            <p>Descubra nossa coleção de peças únicas em crochê, cada uma feita com carinho e inspirada na beleza do universo.</p>
             
-            <tr>
-                <td width="50%" align="center" valign="top">
-                    <a href="p1.html">
-                        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=200&q=80" alt="Sousplat de Crochê" width="200" height="200"><br>
-                        <strong>Sousplat de Crochê</strong>
-                    </a>
-                    <p>R$ 35,00</p>
-                </td>
+            <div class="products-grid">
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sousplat Galáctico</h3>
+                        <p>Proteja sua mesa com estilo e elegância. Feito com fio 100% algodão, ideal para ocasiões especiais.</p>
+                        <div class="product-price">R$ 35,00</div>
+                        <a href="p1.html" class="product-link">Ver detalhes →</a>
+                    </div>
+                </div>
+                
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tapete Oval Cósmico</h3>
+                        <p>Conforto e beleza para seu lar. Design clássico que combina com diversos estilos de decoração.</p>
+                        <div class="product-price">R$ 80,00</div>
+                        <a href="p2.html" class="product-link">Ver detalhes →</a>
+                    </div>
+                </div>
+                
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Amigurumi Ursinho Estelar</h3>
+                        <p>Fofura e delicadeza em forma de urso. Perfeito para presentear crianças e adultos.</p>
+                        <div class="product-price">R$ 45,00</div>
+                        <a href="p3.html" class="product-link">Ver detalhes →</a>
+                    </div>
+                </div>
+                
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <i class="fas fa-bath"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Jogo de Banheiro Nebuloso</h3>
+                        <p>Conjunto completo para decorar seu banheiro com elegância e conforto.</p>
+                        <div class="product-price">R$ 120,00</div>
+                        <a href="p4.html" class="product-link">Ver detalhes →</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 
-                <td width="50%" align="center" valign="top">
-                    <a href="p2.html">
-                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=200&q=80" alt="Tapete Oval de Crochê" width="200" height="200"><br>
-                        <strong>Tapete Oval de Crochê</strong>
-                    </a>
-                    <p>R$ 80,00</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td width="50%" align="center" valign="top">
-                    <a href="p3.html">
-                        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=200&q=80" alt="Amigurumi Ursinho" width="200" height="200"><br>
-                        <strong>Amigurumi Ursinho</strong>
-                    </a>
-                    <p>R$ 45,00</p>
-                </td>
-
-                <td width="50%" align="center" valign="top">
-                    <a href="p4.html">
-                        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=200&q=80" alt="Jogo de Banheiro" width="200" height="200"><br>
-                        <strong>Jogo de Banheiro</strong>
-                    </a>
-                    <p>R$ 120,00</p>
-                </td>
-            </tr>
-
-        </table>
-    </main>
-
-    <hr>
-
-    <footer align="center">
-        <small>&copy; 2025 Meu Site. Todos os direitos reservados.</small>
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            
+            <p>&copy; 2025 Galaxy Crochê. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
+    <script>
+        // Efeito de fade-in ao scrollar
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const fadeInOnScroll = function() {
+                fadeElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.classList.add('visible');
+                    }
+                });
+            };
+            
+            fadeInOnScroll();
+            window.addEventListener('scroll', fadeInOnScroll);
+        });
+    </script>
 </body>
 </html>

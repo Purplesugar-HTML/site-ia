@@ -3,66 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amigurumi Ursinho - Produtos de Crochê</title>
+    <title>Amigurumi Ursinho Estelar - Galaxy Crochê</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
     <header>
-        <img src="https://via.placeholder.com/120x120/800080/ffffff?text=Logo" alt="Logo Roxo" width="120" height="120">
-        <h1>Amigurumi Ursinho</h1>
-        <p>
-            <a href="produtos.html">← Voltar para Produtos</a>
-        </p>
-        <hr>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Início</a></li>
+                    <li><a href="produtos.html" class="active">Produtos</a></li>
+                    <li><a href="sobres.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <article>
-            
-            <section id="imagem-produto">
-                <figure>
-                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=200&q=80" alt="Amigurumi Ursinho" width="200" height="200">
+    <div class="container">
+        <main style="flex-basis: 100%; max-width: 900px; margin: 0 auto;">
+            <article>
+                <h1>Amigurumi Ursinho Estelar</h1>
+                
+                <section id="imagem-produto">
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Amigurumi Ursinho" class="product-detail-img">
                     </figure>
-            </section>
+                </section>
+                
+                <hr class="section-divider">
+                
+                <section id="detalhes-produto">
+                    <h2>Descrição do Produto</h2>
+                    <p>
+                        O Amigurumi Ursinho é um boneco de crochê feito à mão, perfeito para presentear crianças e adultos. Feito com fio 100% algodão, enchimento antialérgico e acabamento delicado.
+                    </p>
+                    
+                    <h3>Veja o Ursinho em Detalhes</h3>
+                    <video width="100%" style="max-width: 400px; border-radius: 10px;" controls>
+                        <source src="video-amigurumi.mp4" type="video/mp4">
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                    <br><br>
+                    
+                    <h3>Detalhes do Produto</h3>
+                    <ul>
+                        <li>Tamanho aproximado: 18cm de altura</li>
+                        <li>Material: fio de algodão e enchimento antialérgico</li>
+                        <li>Cores variadas (consulte disponibilidade)</li>
+                        <li>Feito sob encomenda</li>
+                    </ul>
+                    
+                    <p class="product-detail-price">R$ 45,00</p>
+                    
+                    <a href="formulario.html" class="btn btn-primary">Encomendar Personalizado</a>
+                </section>
             
-            <hr> 
-            
-            <section id="detalhes-produto">
-                
-                <h2>Descrição</h2>
-                <p>
-                    O Amigurumi Ursinho é um boneco de crochê feito à mão, perfeito para presentear crianças e adultos. Feito com fio 100% algodão, enchimento antialérgico e acabamento delicado.
-                </p>
-                
-                <h3>Veja o Ursinho em Detalhes</h3>
-                <video width="300" height="169" controls>
-                    <source src="video-amigurumi.mp4" type="video/mp4">
-                    Seu navegador não suporta a tag de vídeo.
-                </video>
-                <br><br>
-                <h3>Detalhes do Produto</h3>
-                <ul>
-                    <li>Tamanho aproximado: 18cm de altura</li>
-                    <li>Material: fio de algodão e enchimento antialérgico</li>
-                    <li>Cores variadas (consulte disponibilidade)</li>
-                    <li>Feito sob encomenda</li>
-                </ul>
-                
-                <h3>Preço</h3>
-                <p><strong>R$ 45,00</strong></p>
-                
-                <h3>Contato para Pedido</h3>
-                <address>
-                    <a href="mailto:contato@exemplo.com">contato@exemplo.com</a>
-                </address>
-            </section>
-        
-        </article>
-    </main>
+            </article>
+        </main>
+    </div>
 
-    <hr> <footer>
-        <small>&copy; 2025 Meu Site. Todos os direitos reservados.</small>
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            
+            <p>&copy; 2025 Galaxy Crochê. Todos os direitos reservados.</p>
+        </div>
     </footer>
-
 </body>
 </html>

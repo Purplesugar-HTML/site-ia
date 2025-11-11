@@ -3,45 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valores e Missão</title>
+    <title>Valores e Missão - Galaxy Crochê</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
     <header>
-        <img src="assents/img/AVO.jpeg"  alt="Logo Roxo" width="120" height="120">
-        <h1>Nossos Valores e Missão</h1>
-        <p>Conheça o que nos move</p>
-        <p>
-            <a href="inicio.html">← Voltar para a Capa</a>
-        </p>
-        <hr>
-    </header>
-
-    <div>
-        
-        <aside>
-            <h2>Menu</h2>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
             <nav>
                 <ul>
                     <li><a href="inicio.html">Início</a></li>
-                    <li><a href="#valores">Valores</a></li>
-                    <li><a href="#missao">Missão</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobres.html" class="active">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside>
+            <h2>Menu</h2>
+            <nav class="side-nav">
+                <ul>
+                    <li><a href="inicio.html">Início</a></li>
+                    <li><a href="sobres.html" class="active">Valores e Missão</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="tabela.html">Tabela Comparativa</a></li>
+                    <li><a href="formulario.html">Pedido Personalizado</a></li>
                 </ul>
             </nav>
         </aside>
 
-        <hr>
-
         <main>
-            <h3>Ouça nossa Mensagem</h3>
-            <audio controls>
-                <source src="mensagem-missao.mp3" type="audio/mpeg">
-                Seu navegador não suporta a tag de áudio.
-            </audio>
-            <br><br>
+            <h1>Sobre Nós</h1>
+            <p>Conheça o que nos move e a nossa filosofia de trabalho.</p>
 
-            <img src="assents/img/AVO.jpeg" alt="Imagem Roxa Valores e Missão" width="600" height="200"><br><br>
+            <img src="assents/img/AVO.jpeg" alt="Imagem Roxa Valores e Missão" width="600" height="200" style="max-width: 100%; border-radius: 15px; border: 2px solid var(--nebula); margin-bottom: 20px;">
             
             <section id="valores">
                 <h2>Nossos Valores</h2>
@@ -51,10 +61,11 @@
                 </p>
                 <p>
                     Valorizamos a **inovação** e a busca constante por melhorias, sempre colocando as necessidades dos nossos usuários em primeiro lugar.
-                    O compromisso com a **qualidade e a responsabilidade social** também fazem parte do nosso dia a dia.
                 </p>
             </section>
             
+            <hr class="section-divider">
+
             <section id="missao">
                 <h2>Nossa Missão</h2>
                 <p>
@@ -63,22 +74,40 @@
                 </p>
             </section>
 
+            <hr class="section-divider">
+
             <section id="contato">
                 <h2>Contato</h2>
+                <p>Tem alguma dúvida? Fale conosco!</p>
                 <address>
                     <a href="mailto:contato@exemplo.com">contato@exemplo.com</a><br>
                     <a href="https://www.exemplo.com">Visite nosso site principal</a>
                 </address>
             </section>
         </main>
-
     </div>
 
-    <hr> 
-    
     <footer>
-        <small>&copy; 2025 Meu Site. Todos os direitos reservados.</small>
+        <div class="footer-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            
+            <p>&copy; 2025 Galaxy Crochê. Todos os direitos reservados.</p>
+        </div>
     </footer>
-
 </body>
 </html>

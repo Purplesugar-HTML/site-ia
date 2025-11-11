@@ -3,76 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela de Comparação de Produtos de Crochê</title>
+    <title>Tabela Comparativa - Galaxy Crochê</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-    <header align="center">
-        <h1>Comparativo de Produtos</h1>
-        <p>Visão geral de nossas principais categorias.</p>
-        <p>
-            <a href="inicio.html">← Voltar para o Início</a>
-        </p>
-        <hr>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobres.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <table width="90%" border="1" cellpadding="10" cellspacing="0" align="center">
-            
-            <caption><strong>ESPECIFICAÇÕES DE PRODUTOS POR CATEGORIA</strong></caption>
-            
-            <thead>
-                <tr>
-                    <th width="25%">Categoria</th>
-                    <th width="25%">Material Principal</th>
-                    <th width="25%">Tamanho Típico</th>
-                    <th width="25%">Faixa de Preço (R$)</th>
-                </tr>
-            </thead>
-            
-            <tbody>
-                <tr>
-                    <td>Tapetes (Oval / Redondo)</td>
-                    <td>Fio de Algodão Premium / Barbante</td>
-                    <td>60cm a 90cm</td>
-                    <td>80,00 - 180,00</td>
-                </tr>
-                <tr>
-                    <td>Amigurumis (Bonecos)</td>
-                    <td>Fio de Algodão (100%) e Enchimento Antialérgico</td>
-                    <td>15cm a 25cm (Altura)</td>
-                    <td>45,00 - 100,00</td>
-                </tr>
-                <tr>
-                    <td>Sousplats / Jogos de Mesa</td>
-                    <td>Fio de Algodão</td>
-                    <td>35cm (Diâmetro)</td>
-                    <td>25,00 - 45,00 (por unidade)</td>
-                </tr>
-                <tr>
-                    <td>Jogos de Banheiro</td>
-                    <td>Fio de Algodão / Fio de Malha Resistente</td>
-                    <td>Conjunto de 3 a 5 peças</td>
-                    <td>120,00 - 250,00</td>
-                </tr>
-            </tbody>
+    <div class="container">
+        <aside>
+            <h2>Menu</h2>
+            <nav class="side-nav">
+                <ul>
+                    <li><a href="inicio.html">Início</a></li>
+                    <li><a href="sobres.html">Valores e Missão</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="tabela.html" class="active">Tabela Comparativa</a></li>
+                    <li><a href="formulario.html">Pedido Personalizado</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-            <tfoot>
-                <tr>
-                    <td colspan="4">
-                        <small>Os preços podem variar dependendo da complexidade do ponto e das cores escolhidas.</small>
-                    </td>
-                </tr>
-            </tfoot>
+        <main>
+            <h1>Comparativo de Produtos</h1>
+            <p>Visão geral de nossas principais categorias de produtos.</p>
+            
+            <table width="100%">
+                <caption><strong>ESPECIFICAÇÕES DE PRODUTOS POR CATEGORIA</strong></caption>
+                
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Material Principal</th>
+                        <th>Tamanho Típico</th>
+                        <th>Faixa de Preço (R$)</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Tapetes (Oval / Redondo)</td>
+                        <td>Fio de Algodão Premium / Barbante</td>
+                        <td>60cm a 90cm</td>
+                        <td>80,00 - 180,00</td>
+                    </tr>
+                    <tr>
+                        <td>Amigurumis (Bonecos)</td>
+                        <td>Fio de Algodão (100%) e Enchimento Antialérgico</td>
+                        <td>15cm a 25cm (Altura)</td>
+                        <td>45,00 - 100,00</td>
+                    </tr>
+                    <tr>
+                        <td>Sousplats / Jogos de Mesa</td>
+                        <td>Fio de Algodão</td>
+                        <td>35cm (Diâmetro)</td>
+                        <td>25,00 - 45,00 (por unidade)</td>
+                    </tr>
+                    <tr>
+                        <td>Jogos de Banheiro</td>
+                        <td>Fio de Algodão / Fio de Malha Resistente</td>
+                        <td>Conjunto de 3 a 5 peças</td>
+                        <td>120,00 - 250,00</td>
+                    </tr>
+                </tbody>
 
-        </table>
-    </main>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            <small>Os preços podem variar dependendo da complexidade do ponto e das cores escolhidas.</small>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+    </div>
 
-    <hr>
-    
-    <footer align="center">
-        <small>&copy; 2025 Meu Site. Todos os direitos reservados.</small>
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            
+            <p>&copy; 2025 Galaxy Crochê. Todos os direitos reservados.</p>
+        </div>
     </footer>
-
 </body>
 </html>

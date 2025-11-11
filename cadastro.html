@@ -3,73 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Cadastro - Galaxy Crochê</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
     <header>
-        <img src="assents/img/AVO.jpeg"  alt="Logo Roxo" width="120" height="120">
-        <h1>Cadastro</h1>
-        <p>Preencha seus dados para se cadastrar</p>
-        <p>
-            <a href="inicio.html">← Voltar para a Capa</a>
-        </p>
-        <hr>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobres.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html" class="active">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div>
-        
+    <div class="container">
         <aside>
             <h2>Menu</h2>
-            <nav>
+            <nav class="side-nav">
                 <ul>
                     <li><a href="inicio.html">Início</a></li>
                     <li><a href="sobres.html">Valores e Missão</a></li>
                     <li><a href="produtos.html">Produtos</a></li>
                     <li><a href="contato.html">Contato</a></li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="cadastro.html" class="active">Cadastro</a></li>
+                    <li><a href="tabela.html">Tabela Comparativa</a></li>
+                    <li><a href="formulario.html">Pedido Personalizado</a></li>
                 </ul>
             </nav>
         </aside>
 
-        <hr>
-
         <main>
+            <h1>Crie sua Conta</h1>
+            <p>Preencha seus dados para se cadastrar e fazer parte da nossa galáxia.</p>
+            
             <form action="#" method="post">
                 <div>
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required>
                 </div>
-                <br>
+                
                 <div>
                     <label for="email">E-mail:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-                <br>
+                
                 <div>
                     <label for="senha">Senha:</label>
                     <input type="password" id="senha" name="senha" required>
                 </div>
-                <br>
+                
                 <div>
                     <label for="confirmar_senha">Confirme a Senha:</label>
                     <input type="password" id="confirmar_senha" name="confirmar_senha" required>
                 </div>
-                <br>
                 
                 <div>
                     <input type="submit" value="Cadastrar">
                 </div>
             </form>
         </main>
-
     </div>
 
-    <hr> 
-    
     <footer>
-        <small>&copy; 2025 Meu Site. Todos os direitos reservados.</small>
+        <div class="footer-content">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Galaxy Crochê</h1>
+                    <p>Arte em fios cósmicos</p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            
+            <p>&copy; 2025 Galaxy Crochê. Todos os direitos reservados.</p>
+        </div>
     </footer>
-
 </body>
 </html>
